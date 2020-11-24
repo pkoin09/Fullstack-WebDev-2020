@@ -17,4 +17,4 @@ note over Web:
 Web page rendered
 end note
 
-[[img/exercise5.jpg]]
+![ex5-image](/img/exercise5.png)
