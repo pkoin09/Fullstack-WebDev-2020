@@ -16,4 +16,4 @@ Web page rendered
 end note
 
 
-![ex6-image](/img/exercise6.png)
+![ex6-image](./img/exercise6.png)
