@@ -1,0 +1,23 @@
+http://localhost:3001/
+
+###
+
+http://localhost:3001/info
+
+###
+
+http://localhost:3001/api/persons/
+
+###
+
+http://localhost:3001/api/persons/2
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Ada Lovelanc",
+    "number": "555-5555"
+}
