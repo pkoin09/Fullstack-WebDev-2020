@@ -18,4 +18,7 @@ heroku link https://phonebook-student.herokuapp.com/
 complete
 
 ### Part5
-complete
+complete 
+
+### Part6
+complete (approved to re-do)
