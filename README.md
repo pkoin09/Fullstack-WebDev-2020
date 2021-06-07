@@ -21,4 +21,8 @@ complete
 complete 
 
 ### Part6
-complete (approved to re-do)
+complete 
+- (approved to re-do)
+
+### Part7
+complete

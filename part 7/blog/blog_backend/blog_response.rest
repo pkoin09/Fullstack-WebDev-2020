@@ -1,0 +1,62 @@
+GET http://localhost:3003/api/blogs
+
+###
+
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "blog test2",
+  "author": "KK's",
+  "likes": 3
+}
+
+###
+
+PUT http://localhost:3003/api/blogs/5fe22c09bd7140092a161474
+Content-Type: application/json
+
+{
+  "likes": 2
+}
+
+###
+
+DELETE http://localhost:3003/api/blogs/5fe22ded2e5c4309dcd2ef2d
+
+###
+
+GET http://localhost:3003/api/users
+
+###
+POST http://localhost:3003/api/users
+content-type: application/json
+
+{
+    "username": "testuser",
+    "name": "Test User",
+    "password": "TestUserPwd1"
+}
+
+###
+
+POST http://localhost:3003/api/login
+content-type: application/json
+
+{
+    "username": "root",
+    "password": "SuperUser1"
+}
+
+###
+
+POST http://localhost:3003/api/blogs
+content-type: application/json,
+Authorization: bearer #
+
+{
+  "title": "test blog5",
+  "author": "writter four",
+  "url": "testblogfour.cm",
+  "likes": 2
+}
